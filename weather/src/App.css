@@ -1,26 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,700&display=swap');
 
 * {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin:0;
-  padding: 0;
   background-color: #2f3640;
   width: 100vw;
-  height: 100vw;
+  height: 100vh; /* Full viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden; /* Prevent scrolling */
 }
+
 .container {
   width: 350px;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
+
 .input-container {
   width: 100%;
   display: flex;
@@ -29,6 +34,7 @@ body {
   border-radius: 10px;
   overflow: hidden;
 }
+
 .cityInput {
   flex: 1;
   height: 30px;
@@ -37,8 +43,12 @@ body {
   outline: none;
   padding: 10px;
 }
+
 .search-icon {
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px; /* Adjust padding */
   height: 30px;
   cursor: pointer;
 }
@@ -47,17 +57,20 @@ body {
   margin-top: 10px;
   width: 20px;
   height: 20px;
-  align-items: center;
+  object-fit: contain;
 }
+
 .image {
   text-align: center;
   height: 150px;
   margin-bottom: 10px;
 }
+
 .image img {
   width: 160px;
   height: 160px;
 }
+
 .temp,
 .location,
 .country {
@@ -67,19 +80,23 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+
 .temp {
   font-weight: 500;
 }
+
 .location {
   color: #ffbc00;
   font-weight: 400;
   font-size: 40px;
 }
+
 .country {
   font-size: 18px;
   color: #888;
   font-weight: 500;
 }
+
 .cord {
   display: flex;
   justify-content: center;
@@ -88,6 +105,7 @@ body {
   margin-top: 10px;
   text-align: center;
 }
+
 .cord div {
   display: flex;
   flex-direction: column;
@@ -95,12 +113,14 @@ body {
   align-items: center;
   padding: 10px;
 }
+
 .cord div span {
   font-size: 14px;
 }
+
 .humidity-percent,
 .wind-percent,
-.cord div span :nth-child(2) {
+.cord div span:nth-child(2) {
   font-size: 18px;
   font-weight: bold;
   color: #666;
@@ -112,9 +132,11 @@ body {
   justify-content: space-between;
   margin-top: 20px;
 }
+
 .element {
   text-align: center;
 }
+
 .icon {
   height: 50px;
   width: 50px;
@@ -122,7 +144,7 @@ body {
 
 .text {
   font-size: 12px;
-  color: #888; 
+  color: #888;
 }
 
 .loading-message,

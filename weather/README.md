@@ -27,24 +27,32 @@ CSS (Flexbox & Grid)
 
 📦 Setup & Installation
 1️⃣ Clone the repository:
+
+
 sh
 Copy
 Edit
 git clone https://github.com/<your-username>/<repo-name>.git
 
 2️⃣ Navigate to the project folder:
+
+
 sh
 Copy
 Edit
 cd weather-app
 
 3️⃣ Install dependencies:
+
+
 sh
 Copy
 Edit
 npm install
 
 4️⃣ Run the app:
+
+
 sh
 Copy
 Edit

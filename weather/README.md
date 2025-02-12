@@ -6,3 +6,49 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+🌤 Weather App
+A simple and responsive weather application built with React.js that fetches real-time weather data using the OpenWeather API. The app provides users with weather updates based on their search input or their current location.
+
+🚀 Features
+✔ Search by City – Get weather details for any city worldwide.
+✔ Current Location Weather – Fetches weather data using Geolocation API.
+✔ Live Temperature Updates – Displays temperature, humidity, wind speed, and location coordinates.
+✔ Dynamic Weather Icons – Changes icons based on weather conditions.
+✔ Error Handling – Shows proper error messages for invalid city searches or network issues.
+✔ User-Friendly UI – A clean and responsive design with smooth interactions.
+
+🛠 Technologies Used
+React.js
+OpenWeather API
+JavaScript (ES6+)
+CSS (Flexbox & Grid)
+
+
+📦 Setup & Installation
+1️⃣ Clone the repository:
+sh
+Copy
+Edit
+git clone https://github.com/<your-username>/<repo-name>.git
+
+2️⃣ Navigate to the project folder:
+sh
+Copy
+Edit
+cd weather-app
+
+3️⃣ Install dependencies:
+sh
+Copy
+Edit
+npm install
+
+4️⃣ Run the app:
+sh
+Copy
+Edit
+npm start
+
+🌍 Live Demo
+🔗 Deployed Link (If hosted on GitHub Pages, Vercel, or Netlify)

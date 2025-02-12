@@ -12,13 +12,19 @@ A simple and responsive weather application built with React.js that fetches rea
 
 🚀 Features
 ✔ Search by City – Get weather details for any city worldwide.
+
 ✔ Current Location Weather – Fetches weather data using Geolocation API.
+
 ✔ Live Temperature Updates – Displays temperature, humidity, wind speed, and location coordinates.
+
 ✔ Dynamic Weather Icons – Changes icons based on weather conditions.
+
 ✔ Error Handling – Shows proper error messages for invalid city searches or network issues.
+
 ✔ User-Friendly UI – A clean and responsive design with smooth interactions.
 
 🛠 Technologies Used
+
 React.js
 OpenWeather API
 JavaScript (ES6+)
